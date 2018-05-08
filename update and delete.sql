@@ -1,0 +1,17 @@
+show databases;
+create database Ramesh;
+create database Khilan;
+create database kaushik;
+create database Chaitali;
+create database Hardik;
+create database Komal;
+create database Muffy;
+use database komal;
+create table komal(stdid varchar(10),name integer,age varchar(10),address integer,salary varchar(20));
+desc komal;
+insert into komal values(1,"komal",200,"MP","25000");
+select * from komal;
+show tables;
+use koaml;
+update table komal set= "Maharashtra" varchar (10);
+desc komal;
