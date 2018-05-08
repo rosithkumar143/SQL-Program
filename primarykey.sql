@@ -1,0 +1,10 @@
+show databases;
+use database mark;
+create table mark(machine integer,trs integer,acdc integer,stdid varchar(20));
+create table studentdetailes(studid varchar(10) not null,name varchar(15),dept varchar(20) not null);
+desc mark;
+desc studentdetailes;
+insert into mark values(80,85,90,"15bee218");
+select * from marks;
+inser into studentdetailes values("15bee218","rosith","eee");
+select * from studentdetailes;
